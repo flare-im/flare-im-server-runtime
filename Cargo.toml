@@ -92,7 +92,7 @@ flare-core-messaging = { version = "1.1.0", path = "flare-core-messaging" }
 flare-core-runtime = { version = "1.1.0", path = "flare-core-runtime" }
 
 # ===== Proto =====
-flare-proto = { version = "2.0.1", path = "../flare-protocol" }
+flare-proto = { version = "2.0.1", path = "../flare-protocol-grpc/crates/flare-proto" }
 
 [package]
 name = "flare-server-core"
