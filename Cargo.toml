@@ -85,11 +85,11 @@ rdkafka = { version = "0.36", features = ["cmake-build"] }
 prometheus = "0.14"
 
 # ===== 内部 crate =====
-flare-core-base = { version = "1.1.0", path = "flare-core-base" }
-flare-core-transport = { version = "1.1.0", path = "flare-core-transport" }
-flare-core-infra = { version = "1.1.0", path = "flare-core-infra" }
-flare-core-messaging = { version = "1.1.0", path = "flare-core-messaging" }
-flare-core-runtime = { version = "1.1.0", path = "flare-core-runtime" }
+flare-core-base = { version = "1.1.1", path = "flare-core-base" }
+flare-core-transport = { version = "1.1.1", path = "flare-core-transport" }
+flare-core-infra = { version = "1.1.1", path = "flare-core-infra" }
+flare-core-messaging = { version = "1.1.1", path = "flare-core-messaging" }
+flare-core-runtime = { version = "1.1.1", path = "flare-core-runtime" }
 
 # ===== Proto =====
 flare-proto = { version = "2.2.0", path = "../flare-protocol-grpc/crates/flare-proto" }

@@ -21,6 +21,7 @@ pub mod context;
 pub mod error;
 pub mod i18n;
 pub mod id;
+pub mod platform_auth;
 pub mod types;
 pub mod utils;
 
